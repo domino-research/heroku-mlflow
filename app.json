@@ -1,0 +1,14 @@
+{
+  "name": "MLflow",
+  "description": "Deploy MLflow experiment tracking and model registry.",
+  "repository": "https://github.com/domino-research/heroku-mlflow",
+  "logo": "https://mlflow.org/images/MLflow-logo-final-white-TM.png",
+  "keywords": ["mlops", "mlflow"],
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "DATABASE"
+    }
+  ]
+}
