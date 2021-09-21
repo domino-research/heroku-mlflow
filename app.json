@@ -9,6 +9,10 @@
     {
       "plan": "heroku-postgresql:hobby-dev",
       "as": "DATABASE"
+    },
+    {
+      "plan": "felix:test"
     }
-  ]
+  ],
+  "success_url": "/#/"
 }
